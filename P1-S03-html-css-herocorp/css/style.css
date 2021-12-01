@@ -94,3 +94,26 @@ h3 {
 footer {
     padding: 2em 0 4em;
 }
+.acteur_link {
+    background-color: #ddd;
+    color:#880000;
+    margin-bottom: 0.3em;
+    padding: 0.3em;
+    border-radius: 1em; /*coins arrondis sur la bordure*/
+}
+.acteur_link:hover {
+    background-color: grey;
+}
+figure {
+    border: 1px solid #ddd;
+    width: 60%;
+    margin: 0.5em auto;
+    padding: 10px;
+}
+figure img {
+    width: 90%;
+    height: 90%;
+}
+figure:hover {
+    background-color: #ddd;
+}
